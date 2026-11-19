@@ -32,7 +32,7 @@ prefix_map = {
 
 Additional survey methods can be added by updating this dictionary.
 
-How to Use
+**How to Use**
 1. Open QGIS and load the survey location layer.
 2. Ensure that the layer contains a Data_Type field.
 3. Open the Python Console using Ctrl + Alt + P.
