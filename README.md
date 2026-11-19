@@ -40,29 +40,29 @@ How to Use
 5. Copy and paste the script into the Python Console.
 6. Review and modify the survey type dictionary if required.
 7. Run the script.
-8. A new field named Labels will be created automatically. Standardized survey station IDs will be generated and stored in the Labels field.
+8. A new field named Labels will be created automatically.
+
+Standardized survey station IDs will be generated and stored in the Labels field.
 
 **Notes**
+
 Original survey names and existing attributes are preserved.
 The script creates a separate Labels field rather than overwriting existing naming conventions.
 Numbering is maintained independently for each survey type.
 Values are padded with leading zeros (e.g., ST01, ST02, ST03).
 Additional survey types can be configured through the prefix dictionary.
 Ideal for biodiversity assessments, ecological surveys, environmental impact assessments (EIA), baseline studies, and wildlife monitoring projects.
-Example Output
+
+**Example Output**
 Plain Text
 Sherman Trap → ST01
 Sherman Trap → ST02
 Sherman Trap → ST03
- 
 Camera Trap → CT01
 Camera Trap → CT02
- 
 Vantage Point → VP01
 Vantage Point → VP02
- 
 Quadrat → QD01
 Quadrat → QD02
- 
 Transect → TR01
 Transect → TR02
