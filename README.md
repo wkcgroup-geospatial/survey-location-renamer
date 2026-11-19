@@ -8,12 +8,11 @@ Instead of modifying existing site names or labels, the script creates a new fie
 The input layer should contain a field called:
 
 
-Data_Type	- Survey method or equipment type (e.g., Sherman Trap, Camera Trap, Vantage Point, Quadrat, Transect)
+**Data_Type**	- Survey method or equipment type (e.g., Sherman Trap, Camera Trap, Vantage Point, Quadrat, Transect)
 
 The script will automatically create:
 
-Field Name	Description
-Labels	Standardized survey station ID generated from the DataType value
+**Labels** -	Standardized survey station ID generated from the DataType value
 
 
 Survey types are mapped to prefixes using a configurable dictionary:
@@ -54,15 +53,27 @@ Additional survey types can be configured through the prefix dictionary.
 Ideal for biodiversity assessments, ecological surveys, environmental impact assessments (EIA), baseline studies, and wildlife monitoring projects.
 
 **Example Output**
+
 Plain Text
+
 Sherman Trap → ST01
+
 Sherman Trap → ST02
+
 Sherman Trap → ST03
+
 Camera Trap → CT01
+
 Camera Trap → CT02
+
 Vantage Point → VP01
+
 Vantage Point → VP02
+
 Quadrat → QD01
+
 Quadrat → QD02
+
 Transect → TR01
+
 Transect → TR02
