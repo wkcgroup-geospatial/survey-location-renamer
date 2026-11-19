@@ -33,15 +33,14 @@ prefix_map = {
 Additional survey methods can be added by updating this dictionary.
 
 How to Use
-Open QGIS and load the survey location layer.
-Ensure that the layer contains a Data_Type field.
-Open the Python Console using Ctrl + Alt + P.
-Open the script file (survey_location_renamer.py).
-Copy and paste the script into the Python Console.
-Review and modify the survey type dictionary if required.
-Run the script.
-A new field named Labels will be created automatically.
-Standardized survey station IDs will be generated and stored in the Labels field.
+1. Open QGIS and load the survey location layer.
+2. Ensure that the layer contains a Data_Type field.
+3. Open the Python Console using Ctrl + Alt + P.
+4. Open the script file (survey_location_renamer.py).
+5. Copy and paste the script into the Python Console.
+6. Review and modify the survey type dictionary if required.
+7. Run the script.
+8. A new field named Labels will be created automatically. Standardized survey station IDs will be generated and stored in the Labels field.
 
 **Notes**
 Original survey names and existing attributes are preserved.
